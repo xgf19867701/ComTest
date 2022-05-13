@@ -1,0 +1,19 @@
+{
+    "name": "test/hello",
+    "description": "test hello",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "谢广夫",
+            "email": "hzxieguangfu@corp.netease.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload":{
+        "psr-4":{
+            "test\\hello\\":"src/"
+        }
+    }
+}
